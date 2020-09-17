@@ -47,7 +47,7 @@ public class OrngeHRM {
 		}
 		
 		driver.findElement(By.id("btnDelete")).click();
-		Alert alert = driver.switchTo().alert();
+	/*	Alert alert = driver.switchTo().alert();
 		alert.accept();
 		
 		for (int i=1;i==count;i++) 
@@ -63,7 +63,7 @@ public class OrngeHRM {
 			{
 				  System.out.println("Record deleted successfully");
 			}
-		}
+		}*/
 		
 	}
 
